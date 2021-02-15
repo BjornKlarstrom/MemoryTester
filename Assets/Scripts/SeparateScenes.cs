@@ -7,6 +7,9 @@ public class SeparateScenes : MonoBehaviour
 {
     public void LoadNextScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCount - 1)
+            SceneManager.LoadScene(0);
+        else
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

@@ -1,5 +1,71 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2013603187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2013603190}
+  - component: {fileID: 2013603189}
+  - component: {fileID: 2013603188}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2013603190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013603187}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -505, y: -284, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1967659191314005343}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2013603189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013603187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!114 &2013603188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013603187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
 --- !u!1 &1146912899421810035
 GameObject:
   m_ObjectHideFlags: 0
@@ -111,6 +177,7 @@ RectTransform:
   m_Children:
   - {fileID: 1967659192377615082}
   - {fileID: 4438417215826159081}
+  - {fileID: 2013603190}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -528,8 +595,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2904424049795518955}
-        m_TargetAssemblyTypeName: SeparateScenes, Assembly-CSharp
-        m_MethodName: LoadNextScene
+        m_TargetAssemblyTypeName: DirectReferenceToggle, Assembly-CSharp
+        m_MethodName: ToggleMaterial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -551,9 +618,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9359c22084ce64d42b53add2962fb7d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skybox0: {fileID: 2100000, guid: e1e5746fe5f0cbb41975c8e5c89bef7b, type: 2}
-  skybox1: {fileID: 2100000, guid: 260c299db324e7442b7a0dc39190fdf5, type: 2}
-  skybox2: {fileID: 2100000, guid: fe0d3df9fbcef914cb154512815a02c3, type: 2}
-  skybox3: {fileID: 2100000, guid: 2e11feafe2e2ab84f835c236f8105978, type: 2}
-  skybox4: {fileID: 2100000, guid: 7644841976c2cde45abded5243ee97f2, type: 2}
-  skybox5: {fileID: 2100000, guid: 0574003c7cae72b4481e4e188c1b18fb, type: 2}
+  skyboxes:
+  - {fileID: 2100000, guid: e1e5746fe5f0cbb41975c8e5c89bef7b, type: 2}
+  - {fileID: 2100000, guid: 260c299db324e7442b7a0dc39190fdf5, type: 2}
+  - {fileID: 2100000, guid: fe0d3df9fbcef914cb154512815a02c3, type: 2}
+  - {fileID: 2100000, guid: 2e11feafe2e2ab84f835c236f8105978, type: 2}
+  - {fileID: 2100000, guid: 7644841976c2cde45abded5243ee97f2, type: 2}
+  - {fileID: 2100000, guid: 0574003c7cae72b4481e4e188c1b18fb, type: 2}

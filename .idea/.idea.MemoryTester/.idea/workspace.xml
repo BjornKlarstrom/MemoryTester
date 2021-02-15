@@ -20,13 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54e8813e-3830-4d7f-871d-914a66901b53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_0.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/Materials/skybox1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/Materials/skybox1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DirectReferenceToggle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DirectReferenceToggle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SeparateScenes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SeparateScenes.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +45,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/SeparateScenes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DirectReferenceToggle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SeparateScenes.cs" />
       </list>
     </option>
   </component>
@@ -96,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613384748680</updated>
-      <workItem from="1613384755453" duration="1764000" />
+      <workItem from="1613384755453" duration="6526000" />
     </task>
     <servers />
   </component>
