@@ -22,12 +22,7 @@
     <list default="true" id="54e8813e-3830-4d7f-871d-914a66901b53" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DirectReferencing.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DirectReferencing.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StreamingAssets.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StreamingAssets.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DirectAssetReference.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ToggleDirectReference.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DirectAssetReference.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ToggleDirectReference.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox0.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/4_Resources.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/4_Resources.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +34,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadFromResources.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ToggleDirectReference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DirectReferenceToggle.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -51,6 +48,8 @@
         <option value="$PROJECT_DIR$/Assets/ImageLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ToggleDirectReference.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LoadFromResources.cs" />
       </list>
     </option>
   </component>
@@ -104,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613384748680</updated>
       <workItem from="1613384755453" duration="17163000" />
-      <workItem from="1613481028757" duration="2463000" />
+      <workItem from="1613481028757" duration="6938000" />
     </task>
     <servers />
   </component>
