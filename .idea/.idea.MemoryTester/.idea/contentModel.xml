@@ -169,10 +169,15 @@
     <e p="C:\Users\Bergman\AppData\Local\JetBrains\Transient\Rider\v202\SolutionCaches\_MemoryTester.1307856086.00" t="ExcludeRecursive" />
     <e p="C:\Users\Bergman\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
     <e p="C:\Users\Bergman\Desktop\UnityProjects\MemoryTester" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="AssetBundleLoader.cs" t="Include" />
           <e p="DirectReferenceToggle.cs" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="CreateAssetBundles.cs" t="Include" />
+          </e>
           <e p="GameManager.cs" t="Include" />
           <e p="ImageLoader.cs" t="Include" />
           <e p="LoadFromResources.cs" t="Include" />

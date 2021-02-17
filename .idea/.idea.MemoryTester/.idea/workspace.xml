@@ -22,7 +22,31 @@
     <list default="true" id="54e8813e-3830-4d7f-871d-914a66901b53" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/4_Resources.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/4_Resources.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/5_StreamingAssets.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/5_StreamingAssets.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/6_AssetBundle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/6_AssetBundle.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ImageLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ImageLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadFromResources.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadFromResources.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox0.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox0.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox1.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox1.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox2.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox2.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox3.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox3.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox4.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox4.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/BoratTwo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/BoratTwo.jpg.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +60,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadFromResources.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ToggleDirectReference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/CreateAssetBundles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AssetBundleLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DirectReferenceToggle.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -46,10 +72,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SeparateScenes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DirectAssetReference.cs" />
         <option value="$PROJECT_DIR$/Assets/ImageLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ImageLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ToggleDirectReference.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadFromResources.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ImageLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/CreateAssetBundles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/CreateAssetBundles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AssetBundleLoader.cs" />
       </list>
     </option>
   </component>
@@ -64,6 +93,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -104,6 +134,7 @@
       <updated>1613384748680</updated>
       <workItem from="1613384755453" duration="17163000" />
       <workItem from="1613481028757" duration="6938000" />
+      <workItem from="1613547034859" duration="23637000" />
     </task>
     <servers />
   </component>
@@ -126,5 +157,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="604" y="137" key="SettingsEditor" timestamp="1613556419248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="604" y="137" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613556419248" />
   </component>
 </project>

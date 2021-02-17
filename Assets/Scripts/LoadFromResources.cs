@@ -1,31 +1,29 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
-public class LoadFromResources : MonoBehaviour
-{
-    GameObject skyboxCameraPrefab;
-
-    public void LoadResource()
+public class LoadFromResources : MonoBehaviour{
+    const string loadPath = "skyboxVariant";
+    Skybox currentSkybox;
+    
+    void Start()
     {
-        if (skyboxCameraPrefab != null) return;
-        skyboxCameraPrefab = Resources.Load<GameObject>("CameraSkyboxPrefab");
-        InstantiateCameraSkybox(skyboxCameraPrefab);
+        if (Camera.main is { }) currentSkybox = Camera.main.GetComponent<Skybox>();
+
+        var material = Resources.Load<Material>(loadPath + "0");
+        currentSkybox.material = material;
     }
-    void InstantiateCameraSkybox(GameObject skyboxCameraPrefab)
+    public void LoadSkyboxFromResources()
     {
-        Instantiate(skyboxCameraPrefab);
-    }
-
-    public void DestroyNewSkybox()
-    {
-        if (skyboxCameraPrefab != null)
+        if (currentSkybox.material == null)
         {
-            Destroy(skyboxCameraPrefab);
-            Resources.UnloadUnusedAssets();
+            var material = Resources.Load<Material>(loadPath);
+            currentSkybox.material = material;   
         }
+        else
+        {
+            currentSkybox.material = null;
+        }
+        Resources.UnloadUnusedAssets();
+        GC.Collect();
     }
 }

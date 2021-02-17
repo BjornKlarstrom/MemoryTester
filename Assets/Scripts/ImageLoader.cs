@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -6,17 +7,30 @@ using System.IO;
 
 public class ImageLoader : MonoBehaviour
 {
-    public string customTextureFilename = "BoratTwo";
+    [SerializeField] string customTextureFilename = "mySkybox.png";
     UnityWebRequest unityWebRequest;
+    RawImage image;
 
-    public static string GetFileLocation(string relativePath)
+    void Start()
+    {
+        image = gameObject.GetComponent<RawImage>();
+    }
+
+    static string GetFileLocation(string relativePath)
     {
         return Path.Combine(Application.streamingAssetsPath, relativePath);
     }
-    public void ChangeImage()
+    public void ToggleImage()
     {
-        Debug.Log(GetFileLocation(customTextureFilename));
-        StartCoroutine(ChangeImageCo());
+        if (image.texture != null)
+            image.texture = null;
+        else
+        {
+            Debug.Log(GetFileLocation(customTextureFilename));
+            StartCoroutine(ChangeImageCo());   
+        }
+        Resources.UnloadUnusedAssets();
+        GC.Collect();
     }
     IEnumerator ChangeImageCo()
     {
@@ -31,7 +45,7 @@ public class ImageLoader : MonoBehaviour
             }
             else
             {
-                gameObject.GetComponent<RawImage>().texture = DownloadHandlerTexture.GetContent(unityWebRequest);
+                image.texture = DownloadHandlerTexture.GetContent(unityWebRequest);
             }
         }
     }
