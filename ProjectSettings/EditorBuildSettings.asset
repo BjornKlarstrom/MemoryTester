@@ -29,4 +29,5 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/5_StreamingAssets.unity
     guid: c1b57c7d213d4344e8366861aa48f96c
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: bf34fd0d4e2941f4e809d6c41e338ef1, type: 2}

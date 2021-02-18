@@ -180,6 +180,7 @@
           </e>
           <e p="GameManager.cs" t="Include" />
           <e p="ImageLoader.cs" t="Include" />
+          <e p="LoadFromAddressable.cs" t="Include" />
           <e p="LoadFromResources.cs" t="Include" />
           <e p="SeparateScenes.cs" t="Include" />
           <e p="ToggleDirectReference.cs" t="Include" />
