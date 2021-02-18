@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2484034172
+CRC: 3650780198
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 04d1e942380b9c98d23dfdefa61ae0f9
+    Hash: ffda2ce6e46440fc5b53b731a319770f
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5f2def8ba2181b6acb82b72a0c42e068
@@ -18,4 +18,5 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Skyboxes/mySkybox.mat
+- Assets/Skyboxes/mySkybox.png
 Dependencies: []

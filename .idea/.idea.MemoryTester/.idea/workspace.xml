@@ -20,33 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54e8813e-3830-4d7f-871d-914a66901b53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/4_Resources.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/4_Resources.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/5_StreamingAssets.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/5_StreamingAssets.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/6_AssetBundle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/6_AssetBundle.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ImageLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ImageLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AssetBundleLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AssetBundleLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/CreateAssetBundles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/CreateAssetBundles.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadFromResources.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadFromResources.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox0.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox0.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox1.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox1.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox2.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox2.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox3.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox3.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox4.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox4.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox4.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/skybox4.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox5.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox5.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/skybox5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/BoratTwo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/BoratTwo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/mySkybox.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/mySkybox.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/AssetBundles" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/AssetBundles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/AssetBundles.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/AssetBundles.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/StreamingAssets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/StreamingAssets.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/StreamingAssets.manifest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/StreamingAssets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/firstbundle" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/firstbundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/firstbundle.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/firstbundle.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky0bundle" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/sky0bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky0bundle.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/sky0bundle.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky0bundle.manifest.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/sky0bundle.manifest.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky1bundle" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/sky1bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky1bundle.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/sky1bundle.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky1bundle.manifest.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/sky1bundle.manifest.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky2bundle" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/sky2bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky2bundle.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/sky2bundle.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky2bundle.manifest.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/sky2bundle.manifest.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky3bundle" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/sky3bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky3bundle.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/sky3bundle.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky3bundle.manifest.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/sky3bundle.manifest.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky4bundle" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/sky4bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky4bundle.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/sky4bundle.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky4bundle.manifest.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/sky4bundle.manifest.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,9 +77,9 @@
         <option value="$PROJECT_DIR$/Assets/ImageLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ToggleDirectReference.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/CreateAssetBundles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadFromResources.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Editor/CreateAssetBundles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/CreateAssetBundles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AssetBundleLoader.cs" />
       </list>
@@ -134,7 +137,9 @@
       <updated>1613384748680</updated>
       <workItem from="1613384755453" duration="17163000" />
       <workItem from="1613481028757" duration="6938000" />
-      <workItem from="1613547034859" duration="23637000" />
+      <workItem from="1613547034859" duration="23781000" />
+      <workItem from="1613650339347" duration="479000" />
+      <workItem from="1613650848371" duration="15181000" />
     </task>
     <servers />
   </component>

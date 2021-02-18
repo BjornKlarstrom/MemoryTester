@@ -5,18 +5,26 @@ using UnityEngine;
 public class AssetBundleLoader : MonoBehaviour
 {
     AssetBundle assetBundle;
-    const string assetBundlePath = "Assets/StreamingAssets/StreamingAssets";
+    Skybox currentSkybox;
+    readonly string assetBundlePath = Application.streamingAssetsPath;
+
     void Start()
     {
-        LoadAssetBundle(assetBundlePath);
+        if (Camera.main is { }) this.currentSkybox = Camera.main.GetComponent<Skybox>();
     }
-    void LoadAssetBundle(string path)
+    public void ToggleBundleAsset()
     {
-        this.assetBundle = AssetBundle.LoadFromFile(path);
-        Debug.Log(this.assetBundle != null ? "Loading AssetBundle is a... SUCCESS" : "ERROR Loading...");
-    }
-    public void InstantiateAsset()
-    {
-        if (Camera.main is { }) Camera.main.GetComponent<Skybox>().material = assetBundle.LoadAsset<Material>("sky0bundle");
+        if (currentSkybox.material == null)
+        {
+            this.assetBundle = AssetBundle.LoadFromFile(Path.Combine(assetBundlePath, "sky4bundle"));
+            Debug.Log(this.assetBundle != null ? "Loading AssetBundle is a... SUCCESS" : "ERROR Loading...");
+            var material = this.assetBundle.LoadAsset<Material>("skybox4");
+            currentSkybox.material = material;   
+        }
+        else
+        {
+            currentSkybox.material = null;
+            assetBundle.Unload(true);
+        }
     }
 }

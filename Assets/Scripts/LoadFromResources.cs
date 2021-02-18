@@ -8,9 +8,6 @@ public class LoadFromResources : MonoBehaviour{
     void Start()
     {
         if (Camera.main is { }) currentSkybox = Camera.main.GetComponent<Skybox>();
-
-        var material = Resources.Load<Material>(loadPath + "0");
-        currentSkybox.material = material;
     }
     public void LoadSkyboxFromResources()
     {
