@@ -20,13 +20,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54e8813e-3830-4d7f-871d-914a66901b53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MemoryTester/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/3_SeparateScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3_SeparateScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/3_XScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3_XScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/7_Adressables.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/7_Adressables.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/7_Adressables.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/7_Adressables.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AssetBundleLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AssetBundleLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/mySkybox.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/mySkybox.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/mySkybox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/mySkybox.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/AssetBundles" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/AssetBundles.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/AssetBundles.manifest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/AssetBundles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/firstbundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/firstbundle.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/firstbundle.manifest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/firstbundle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky0bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky0bundle.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky0bundle.manifest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky0bundle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky1bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky1bundle.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky1bundle.manifest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky1bundle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky2bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky2bundle.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky2bundle.manifest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky2bundle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky3bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky3bundle.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky3bundle.manifest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky3bundle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky4bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky4bundle.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky4bundle.manifest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/sky4bundle.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
@@ -60,9 +92,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadFromResources.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/CreateAssetBundles.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AssetBundleLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadFromResources1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadFromAddressable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AssetBundleLoader.cs" />
       </list>
     </option>
   </component>
@@ -122,7 +154,8 @@
       <workItem from="1613547034859" duration="23781000" />
       <workItem from="1613650339347" duration="479000" />
       <workItem from="1613650848371" duration="15664000" />
-      <workItem from="1613689157254" duration="896000" />
+      <workItem from="1613689157254" duration="1220000" />
+      <workItem from="1613738643813" duration="7264000" />
     </task>
     <servers />
   </component>

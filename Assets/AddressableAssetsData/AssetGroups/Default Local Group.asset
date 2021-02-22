@@ -17,8 +17,14 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 468fd142d44eee04ab117bd03453f5b1
   m_SerializeEntries:
-  - m_GUID: 2e11feafe2e2ab84f835c236f8105978
-    m_Address: Assets/Skyboxes/mySkybox.mat
+  - m_GUID: 7644841976c2cde45abded5243ee97f2
+    m_Address: Assets/Skyboxes/skybox3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0574003c7cae72b4481e4e188c1b18fb
+    m_Address: Assets/Skyboxes/skybox4.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}

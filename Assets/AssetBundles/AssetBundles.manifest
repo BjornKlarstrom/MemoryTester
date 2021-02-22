@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3076899161
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: sky1bundle
+      Dependencies: {}
+    Info_1:
+      Name: sky0bundle
+      Dependencies: {}
+    Info_2:
+      Name: sky2bundle
+      Dependencies: {}
+    Info_3:
+      Name: sky3bundle
+      Dependencies: {}
+    Info_4:
+      Name: sky4bundle
+      Dependencies: {}

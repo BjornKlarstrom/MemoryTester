@@ -6,7 +6,7 @@ public class AssetBundleLoader : MonoBehaviour
 {
     AssetBundle assetBundle;
     Skybox currentSkybox;
-    readonly string assetBundlePath = Application.streamingAssetsPath;
+    const string assetBundlePath = "Assets/AssetBundles/";
 
     void Start()
     {
